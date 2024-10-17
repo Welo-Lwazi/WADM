@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #F4F5FA;
+}
+
+.fontNew {
+    font-family: "Poppins", sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.otp {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.select-arrow-hidden {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('./Assets/Image/corporate/down.png');
+    background-repeat: no-repeat;
+    background-position: right 15px center !important;
+}
+
+.selects-arrow-hidden {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 1rem;
+    background-image: url('./Assets/Image/corporate/down1.png');
+    background-repeat: no-repeat;
+    background-position: right 20px center !important;
+}
+
+.purchs-radio:after {
+    width: 21px;
+    height: 21px;
+    border-radius: 15px;
+    top: -4px;
+    left: -3px;
+    position: relative;
+    background-color: #F6F6F6;
+    border: 1px solid #989898;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    outline: none;
+}
+
+.purchs-radio:checked:after {
+    width: 21px;
+    height: 21px;
+    border-radius: 15px;
+    top: -4px;
+    left: -3px;
+    position: relative;
+    border: none;
+    background-image: url(./Assets/Image/corporate/ok.png);
+    background-position: center;
+    border: 1px solid #fff;
+    background-size: cover;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+.gen-radio:after {
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    top: 2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #989898;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    outline: none;
+}
+
+.gen-radio:checked:after {
+    width: 19px;
+    height: 19px;
+    border-radius: 15px;
+    top: 2px;
+    left: -1px;
+    position: relative;
+    border: none;
+    background-image: url(./Assets/Image/Healthworker/check.png);
+    background-position: center;
+    border: 1px solid #fff;
+    background-size: cover;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+select#page {
+    box-shadow: none !important;
+}
+
+button#headlessui-switch-\:r1\: {
+    background-color: #00987C !important;
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
